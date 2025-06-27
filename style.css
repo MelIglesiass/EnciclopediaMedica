@@ -21,24 +21,23 @@ body {
             text-decoration: underline;
         }
 
-header, nav, footer {
-    width: 100%;
-}
-
 header {
-    font-size: 11px;
-    background-color: #222; /* casi negro */
-    color: #e0e0e0; /* gris claro */
-    padding: 12px;
-    text-align: center;
-    font-weight: 600;
+    display: flex;
+    justify-content: flex-end; /* Alinea el logo a la derecha */
+    align-items: center;
+    padding: 10px;
 }
 
     header img {
-        max-width: 130px;
-        vertical-align: middle;
-        border-radius: 4px;
+        width: 100px; /* o el tamaño que quieras */
+        height: auto;
     }
+
+    header h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+
 
 .saltar-a-contenido {
     position: absolute;
@@ -110,6 +109,11 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 h2 {
@@ -350,4 +354,9 @@ img {
     main {
         padding: 12px;
     }
+}
+main img,
+main video {
+    display: block;
+    margin: 12px auto;
 }
