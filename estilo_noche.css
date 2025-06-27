@@ -1,0 +1,295 @@
+/* ========== ESTILO MODO NOCHE ========== */
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #000000;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+    body a {
+        color: #d3c1af;
+        text-decoration: none;
+    }
+
+        body a:hover,
+        body a:focus {
+            text-decoration: underline;
+            outline: 2px dashed #5afdfd;
+            outline-offset: 2px;
+        }
+
+header, nav, footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 10px;
+    background-color: #e66e6e;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+    header img {
+        max-width: 125px;
+        vertical-align: middle;
+    }
+
+    header h1 {
+        font-size: 20px;
+        margin: 0;
+        color: #000000;
+    }
+
+.saltar-a-contenido {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background: #ffffff;
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+}
+
+    .saltar-a-contenido:focus {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+#migas {
+    margin: 25px;
+    font-size: 18px;
+}
+
+    #migas a {
+        color: #5afdfd;
+        text-decoration: none;
+    }
+
+        #migas a:hover,
+        #migas a:focus {
+            text-decoration: underline;
+            outline: 2px dashed #5afdfd;
+            outline-offset: 2px;
+        }
+
+nav {
+    background-color: #e66e6e;
+    color: #000000;
+    padding: 30px;
+    overflow-x: hidden;
+}
+
+    nav a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+        nav a:hover,
+        nav a:focus {
+            text-decoration: underline;
+            outline: 2px dashed #5afdfd;
+            outline-offset: 2px;
+        }
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.0);
+    overflow-y: auto;
+}
+
+h2 {
+    font-size: 25px;
+    color: #e66e6e;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #34b8b8;
+    text-align: left;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+section {
+    background-color: #000000;
+    color: #e0e0e0;
+    padding: 5px;
+}
+
+    section a {
+        color: #34b8b8;
+        text-decoration: none;
+    }
+
+        section a:hover,
+        section a:focus {
+            text-decoration: underline;
+            outline: 2px dashed #5afdfd;
+            outline-offset: 2px;
+        }
+
+form label {
+    font-size: 16px;
+    color: #d3c1af;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form input, form textarea, form select {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #5afdfd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+    form input[type="submit"] {
+        background-color: #5afdfd;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 15px 20px;
+        transition: background-color 0.3s;
+        width: 100%;
+    }
+
+        form input[type="submit"]:hover,
+        form input[type="submit"]:focus {
+            background-color: #a3fdfd;
+            outline: none;
+        }
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #5afdfd;
+    color: #000000;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 3px solid #41ffff;
+}
+
+thead th {
+    background-color: #20caca;
+    color: #000000;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #3c210a;
+}
+
+tbody tr:hover,
+tbody tr:focus-within {
+    background-color: #261008;
+}
+
+#paginas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+    #paginas a {
+        color: #34b8b8;
+        text-decoration: none;
+    }
+
+        #paginas a:hover,
+        #paginas a:focus {
+            text-decoration: underline;
+            outline: 2px dashed #5afdfd;
+            outline-offset: 2px;
+        }
+
+#Benviado, #Cenviado, #ERROR, #fenviado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.0);
+    padding: 20px;
+    margin: 0;
+}
+
+footer {
+    background-color: #e66e6e;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 5px;
+}
+
+    footer p {
+        margin: 5px;
+    }
+
+    footer a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+        footer a:hover,
+        footer a:focus {
+            text-decoration: underline;
+            outline: 2px dashed #5afdfd;
+            outline-offset: 2px;
+        }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+    display: block;
+    margin: 0 auto;
+}

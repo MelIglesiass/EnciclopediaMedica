@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 80ch;
+    text-align: left;
+}
+
+a {
+    color: #0055ff;
+    text-decoration: underline;
+}
+
+    a:hover,
+    a:focus {
+        color: #ff5500;
+        background-color: #e6e6e6;
+        outline: 3px solid #ff5500;
+    }
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+    header img {
+        max-width: 120px;
+        vertical-align: middle;
+    }
+
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0.5em 0;
+}
+
+h2, h3, h4 {
+    color: #0055ff;
+    text-align: center;
+    margin: 1.5em 0 0.5em 0;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #0055ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+}
+
+    button:hover,
+    input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover {
+        background-color: #ff5500;
+    }
+
+input,
+textarea,
+select {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto 20px auto;
+    display: block;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+th {
+    background-color: #0055ff;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e6e6e6;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+    footer p {
+        margin: 5px 0;
+    }
+
+    footer a {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+        footer a:hover {
+            color: #ff5500;
+        }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.saltar-a-contenido {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: top 0.3s, opacity 0.3s;
+}
+
+    .saltar-a-contenido:focus {
+        top: 0;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+.highlight {
+    background-color: #ffff00;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}

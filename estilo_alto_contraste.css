@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    max-width: 80ch;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: underline;
+}
+
+    a:hover,
+    a:focus {
+        color: #ff00ff;
+        background-color: #222;
+        outline: 3px solid #ff00ff;
+    }
+
+header {
+    background-color: #000000;
+    color: #ffff00;
+    padding: 10px;
+    text-align: center;
+}
+
+    header img {
+        max-width: 125px;
+        vertical-align: middle;
+    }
+
+h1 {
+    color: #ffff00;
+}
+
+h2 {
+    font-size: 30px;
+    color: #00ffff;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    color: #ff00ff;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    color: #ffff00;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    font-family: 'Atkinson Hyperlegible';
+    font-size: 18px;
+    padding: 10px;
+    background-color: #00ffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+    button:hover,
+    input[type="submit"]:hover,
+    input[type="button"]:hover,
+    input[type="reset"]:hover {
+        background-color: #ff00ff;
+        color: #000;
+    }
+
+input,
+textarea,
+select {
+    font-family: 'Atkinson Hyperlegible';
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffff00;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #ffff00;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 2px solid #ffff00;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid #ff00ff;
+}
+
+thead th {
+    background-color: #ff00ff;
+    color: #000000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #111111;
+}
+
+tbody tr:hover {
+    background-color: #333333;
+}
+
+caption {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #ffff00;
+    color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #00ffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+    footer p {
+        margin: 5px;
+    }
+
+    footer a {
+        color: #ffff00;
+        text-decoration: underline;
+    }
+
+        footer a:hover {
+            color: #ff00ff;
+        }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saltar-a-contenido {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: #ffff00;
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+}
+
+    .saltar-a-contenido:focus {
+        top: 0;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+.hidden {
+    display: none;
+}
+
+.highlight {
+    background-color: #ff00ff;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
