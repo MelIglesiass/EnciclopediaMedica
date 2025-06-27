@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Formulario de Consulta</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="../imagenes/logo.png" alt="Logo Enciclopedia">
+        </a>
+        <h1>Enciclopedia Medica</h1>
+    </header>
+    <a href="#enviar" class="saltar-a-contenido">Saltar a enviar</a>
+
+    <div id="migas">
+        Está en: <a href="../index.html">Inicio</a> &gt; <a href="cuestionario.html">Formulario de Contacto</a>
+    </div>
+    <main>
+        <h1>Formulario de Contacto</h1>
+        <p>Rellena el siguiente formulario para enviarnos tu consulta o comentario. Los campos marcados como obligatorios deben completarse para poder enviar el mensaje.</p>
+
+        <form action="CuestionarioEnviado.html" method="get">
+            <label for="asunto">Tema de consulta (obligatorio):</label><br>
+            <input type="text" id="asunto" name="asunto" required><br><br>
+
+            <label for="comentario">Tu mensaje (obligatorio):</label><br>
+            <textarea id="comentario" name="comentario" required></textarea><br><br>
+
+            <label for="yo_soy">Perfil del remitente:</label><br>
+            <select id="yo_soy" name="yo_soy">
+                <option value="Cientifico">Cient�fico/a</option>
+                <option value="Educador">Docente</option>
+                <option value="Fabricante">Fabricante</option>
+                <option value="Medico">M�dico/a</option>
+                <option value="Paciente">Paciente</option>
+                <option value="Periodista">Periodista</option>
+            </select><br><br>
+
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+
+            <label>G�nero:</label><br>
+            <input type="radio" id="hombre" name="sexo" value="Hombre">
+            <label for="hombre">Hombre</label><br>
+            <input type="radio" id="mujer" name="sexo" value="Mujer">
+            <label for="mujer">Mujer</label><br>
+            <input type="radio" id="otro" name="sexo" value="Otro">
+            <label for="otro">Otro</label><br><br>
+
+            <label for="email">Correo electr�nico de contacto:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="mas_info">�Deseas recibir m�s informaci�n por correo?</label>
+            <input type="checkbox" id="mas_info" name="mas_info"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="contenidos.html">Mapa web</a></p>
+        <p>Maria Miguel Iglesias Bandarra</p>
+        <p>mmib3@alu.ua.es</p>
+        <p>Universidad de Alicante</p>
+    </footer>
+</body>
+</html>

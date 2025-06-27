@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Opinión - Enciclopedia Médica</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../imagenes/logo.png" alt="Logo Enciclopedia">
+        </a>
+        <h1>Enciclopedia Medica</h1>
+    </header>
+    <a href="#enviar" class="saltar-a-contenido">Saltar a enviar</a>
+
+    <div id="migas">
+        Está en: <a href="../index.html">Inicio</a> &gt; <a href="./formulario.html">Formulario de satisfaccion</a>
+    </div>
+    <main>
+        <h1>Encuesta de Opini�n - Enciclopedia Médica</h1>
+        <p>Los campos marcados con un asterisco (*) son obligatorios para poder enviar el formulario.</p>
+
+        <form action="FormEnviado.html" method="post">
+            <p>
+                <label for="email">Correo electr�nico *:</label>
+                <input type="email" id="email" name="email" placeholder="usuario@dominio.com" required
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                       title="Introduce una direcci�n de correo v�lida como usuario@dominio.com">
+            </p>
+            <p>
+                <label for="fecha">Fecha de tu consulta *:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </p>
+            <p>
+                <label for="valoracion">Puntuaci�n general (1-10):</label>
+                <input type="number" id="valoracion" name="valoracion" min="1" max="10" step="1" placeholder="1">
+            </p>
+            <p>
+                <label for="satisfaccion">Porcentaje de satisfacci�n (0 a 100):</label>
+                <input type="range" id="satisfaccion" name="satisfaccion" min="0" max="100" step="5">
+            </p>
+            <p>
+                <label for="color">Color sugerido para el logotipo:</label>
+                <input type="color" id="color" name="color">
+            </p>
+            <p>
+                <label for="comentarios">Comentarios adicionales:</label>
+                <textarea id="comentarios" name="comentarios" rows="4"
+                          placeholder="Comparte aqu� tus sugerencias, dudas o ideas..."></textarea>
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="contenidos.html">Mapa web</a></p>
+        <p>Maria Miguel Iglesias Bandarra</p>
+        <p>mmib3@alu.ua.es</p>
+        <p>Universidad de Alicante</p>
+    </footer>
+</body>
+
+</html>
