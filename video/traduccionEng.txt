@@ -1,0 +1,20 @@
+Good afternoon.
+This is a tutorial on how the Medical Encyclopedia works, created by María Iglesias for the Biomedical Engineering course.
+
+The website starts with an index page that features two main articles. The first one is linked to another page and redirects automatically. The second one works the same way.
+
+Just below, there is a visual map about atherosclerosis. Next, you’ll find the documents created in the previous assignment, related to the PAC evaluation. You can also access the Word files.
+
+Further down, there is a link that redirects to an HTML page, where you can fill out a contact form. The first two fields of the form are required in order to submit it.
+
+Then, there is a link where you can leave feedback about the accessibility of the website.
+
+At the top of the page, there is a search bar. By clicking on it, you can search for diseases based on their symptoms. There is also a letter bar, where each letter is linked to diseases that start with that letter.
+
+In this video, two diseases are shown as examples: asthma and autism. By clicking on them, you are redirected to their respective articles, which include videos and related content. Some letters are not linked to any disease.
+
+The website also offers different light modes and is accessible in terms of images and tables.
+
+However, this explanation only covers the basic features.
+
+Thank you and see you soon.

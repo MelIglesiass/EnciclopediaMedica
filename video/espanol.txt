@@ -1,0 +1,20 @@
+Buenas tardes.
+Esto es un tutorial de cómo funciona la Enciclopedia Médica, hecha por María Iglesias para la asignatura de Ingeniería Biomédica.
+
+La página web comienza con un index, que incluye dos artículos principales. El primero está vinculado a un enlace y se redirige automáticamente a su página correspondiente. El segundo funciona de la misma manera.
+
+Justo debajo, hay un mapa visual sobre la aterosclerosis. A continuación, aparecen los documentos creados en la práctica anterior, relacionados con la evaluación de PAC. También se puede acceder a los archivos en formato Word.
+
+Más abajo, hay un enlace que redirige a un archivo HTML, donde se puede rellenar un formulario de contacto. Los dos primeros campos del formulario son obligatorios para poder enviarlo.
+
+Después, encontramos un enlace donde se puede dejar una opinión sobre la accesibilidad de la página web.
+
+En la parte superior, hay un buscador. Si hacemos clic en él, podemos buscar enfermedades a partir de sus síntomas. También hay una barra con letras del abecedario: cada letra está vinculada con enfermedades que empiezan por esa letra.
+
+En el vídeo se muestran como ejemplo dos enfermedades: asma y autismo. Al hacer clic, se redirige a sus respectivos artículos, que incluyen vídeos y contenido relacionado. Hay letras que no están vinculadas a ninguna enfermedad.
+
+La página web también ofrece la opción de distintos modos de luz, y es accesible en cuanto a imágenes y tablas.
+
+Sin embargo, en esta explicación solo se muestran las funciones básicas.
+
+Gracias y hasta pronto.
