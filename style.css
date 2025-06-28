@@ -13,9 +13,10 @@ body {
 }
 
     body a {
-        color: #333; /* gris oscuro */
-        text-decoration: none;
+        color: #0055cc; /* azul con buen contraste */
+        text-decoration: underline; /* subrayado visible */
     }
+
 
         body a:hover {
             text-decoration: underline;
